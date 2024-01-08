@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sneha1460_jenkinspipeline_1704695525588-pr-trigger-input-set
+  identifier: Build_sneha1460_jenkinspipeline_1704695525588prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_sneha1460_jenkinspipeline_1704695525588
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
